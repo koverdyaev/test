@@ -1,0 +1,16 @@
+# General
+# ------------------------------------------------------------------------------
+USE_DOCKER=yes
+IPYTHONDIR=/app/.ipython
+SERVICE_API_HOST=django
+SERVICE_API_PORT=8000
+# Redis
+# ------------------------------------------------------------------------------
+REDIS_URL=redis://redis:6379/0
+
+# Celery
+# ------------------------------------------------------------------------------
+
+# Flower
+CELERY_FLOWER_USER=hJYVXvRGUVwURffkTTbbOSdRnvbrmlJS
+CELERY_FLOWER_PASSWORD=HQi6Yg6cbLnHWBBgatXChvyeHgjkKSsZhUtlvOXRwblWqe4jn77Hh5S2w5rfmUAS
